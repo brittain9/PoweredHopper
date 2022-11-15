@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<DesignatorDropdownGroupDef>
+		<defName>PoweredHopper</defName> 
+	</DesignatorDropdownGroupDef>
+	
+	<ThingDef ParentName="BuildingBase">
+    <defName>Alex_PoweredHopper</defName>
+    <label>powered hopper</label>
+    <description>A nutrient paste hopper with a built in cooling unit for the freshest paste.</description>
+    <thingClass>Building_Storage</thingClass>
+    <graphicData>
+      <texPath>PoweredHopper/PoweredHopper</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <damageData>
+        <rect>(0.05,0.1,0.9,0.9)</rect>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.5</fillPercent>
+    <pathCost>42</pathCost>
+    <canOverlapZones>false</canOverlapZones>
+    <building>
+      <storageGroupTag>Hopper</storageGroupTag>
+      <blueprintClass>Blueprint_Storage</blueprintClass>
+      <fixedStorageSettings>
+        <priority>Important</priority>
+        <filter>
+          <categories>
+            <li>FoodRaw</li>
+          </categories>
+          <specialFiltersToDisallow>
+            <li>AllowPlantFood</li>
+          </specialFiltersToDisallow>
+        </filter>
+      </fixedStorageSettings>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+          <categories>
+            <li>FoodRaw</li>
+          </categories>
+          <disallowedThingDefs>
+            <li>Meat_Human</li>
+            <li>Meat_Megaspider</li>
+          </disallowedThingDefs>
+        </filter>
+      </defaultStorageSettings>
+      <buildingTags>
+        <li>Production</li>
+      </buildingTags>
+    </building>
+    <inspectorTabs>
+      <li>ITab_Storage</li>
+    </inspectorTabs>
+    <castEdgeShadows>true</castEdgeShadows>
+    <statBases>
+      <WorkToBuild>300</WorkToBuild>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>0.5</Flammability>
+    </statBases>
+    <costList>
+      <Steel>20</Steel>
+	  <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <tickerType>Never</tickerType>
+    <rotatable>true</rotatable>
+    <neverMultiSelect>true</neverMultiSelect>
+    <designationCategory>Production</designationCategory>
+    <uiOrder>2140</uiOrder>
+    <surfaceType>Item</surfaceType>
+    <placeWorkers>
+      <li>PlaceWorker_NextToHopperAccepter</li>
+    </placeWorkers>
+    <constructEffect>ConstructMetal</constructEffect>
+    <researchPrerequisites>
+      <li>NutrientPaste</li>
+	  <li>AirConditioning</li>
+    </researchPrerequisites>
+    <uiIconPath>Things/Building/Production/Hopper_MenuIcon</uiIconPath>
+    <uiIconScale>0.85</uiIconScale>
+	<modExtensions>
+	<li Class="PoweredHopper.PoweredHopper"/>
+	</modExtensions>
+	<designatorDropdown>PoweredHopper</designatorDropdown>
+	<clearBuildingArea>true</clearBuildingArea>
+	<comps>
+		<li Class="CompProperties_Power">
+			<compClass>CompPowerTrader</compClass>
+			<basePowerConsumption>30</basePowerConsumption>
+		</li>
+	</comps>
+	</ThingDef>
+</Defs>

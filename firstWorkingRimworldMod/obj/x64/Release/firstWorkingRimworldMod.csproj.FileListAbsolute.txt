@@ -1,0 +1,7 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\firstWorkingRimworldMod\1.4\Assemblies\firstWorkingRimworldMod.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\firstWorkingRimworldMod\1.4\Assemblies\firstWorkingRimworldMod.pdb
+C:\Users\alex\OneDrive\Dev\cSharpStuff\firstWorkingRimworldMod\firstWorkingRimworldMod\obj\x64\Release\firstWorkingRimworldMod.csproj.AssemblyReference.cache
+C:\Users\alex\OneDrive\Dev\cSharpStuff\firstWorkingRimworldMod\firstWorkingRimworldMod\obj\x64\Release\firstWorkingRimworldMod.csproj.CoreCompileInputs.cache
+C:\Users\alex\OneDrive\Dev\cSharpStuff\firstWorkingRimworldMod\firstWorkingRimworldMod\obj\x64\Release\firstWorkingRimworldMod.csproj.CopyComplete
+C:\Users\alex\OneDrive\Dev\cSharpStuff\firstWorkingRimworldMod\firstWorkingRimworldMod\obj\x64\Release\firstWorkingRimworldMod.dll
+C:\Users\alex\OneDrive\Dev\cSharpStuff\firstWorkingRimworldMod\firstWorkingRimworldMod\obj\x64\Release\firstWorkingRimworldMod.pdb

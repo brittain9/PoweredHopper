@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+	<name>Powered Hopper</name>
+	<author>Alex</author>
+	<supportedVersions>
+		<li>1.4</li>
+	</supportedVersions>
+	<url></url>
+	<description>
+Simple powered frozen hopper for your nutrient paste needs. My first mod - Learned a lot about XML and love c# so hope to make more
+	</description>
+	<packageId>Alex.PoweredHopper</packageId>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>Ludeon.RimWorld.Biotech</li>
+		<li>brrainz.harmony</li>
+	</loadAfter>
+</ModMetaData>
